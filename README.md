@@ -70,3 +70,6 @@ I have been writing GEGL syntax in Gimp for almost two and a half years and maki
 ![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/a547300b-26a0-4c9e-8fda-b3283e4589a9)
 
 ![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/c580b5e3-f453-4970-9b1b-dc01ca24d62b)
+
+![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/915bf568-f0b5-4632-8b0a-b828ad982d93)
+
