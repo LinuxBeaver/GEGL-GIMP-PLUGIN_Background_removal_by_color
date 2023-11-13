@@ -8,6 +8,7 @@ Use the color dropper to select which color to remove from an image and all neig
 ![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/d7fd33eb-b6c8-46fe-b2cf-0884a027f007)
 
 **Download procompiled binaries here**
+
 https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/releases/tag/Background_Remove_By_color
 
 ## Location to put binaries
