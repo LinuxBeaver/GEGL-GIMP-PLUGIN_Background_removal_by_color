@@ -3,6 +3,11 @@ This is a simple background removal tool that is NOT AI POWERED. I made this to 
 
 Use the color dropper to select which color to remove from an image and all neighboring colors (such as the color blue) will be removed. Users are allowed to select up to five colors to remove and use other settings to increase the likelyhood of a successful background removal. There are also special modes that call it with my threshold alpha and edge smooth plugins, that saves time as you don't have to run them manually afterward. This plugin is NOT a AI based miracle worker like REMBG U2NET :D,  but it can remove simple colored backgrounds consistently. The key to this plugin being successful is that the background and foreground must already be contrasting colors. It is expected to use a layer mask above and mask out the mistakes this plugin made or erase manually whatever it failed to erase. 
 
+![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/7abdd25b-220e-4efd-a217-ad947ac029b0)
+
+![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/d7fd33eb-b6c8-46fe-b2cf-0884a027f007)
+
+
 Download procompiled binaries here
 /releases
 
@@ -62,4 +67,6 @@ I have been writing GEGL syntax in Gimp for almost two and a half years and maki
 
 ## More Previews of this based plugin
 
+![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/a547300b-26a0-4c9e-8fda-b3283e4589a9)
 
+![image](https://github.com/LinuxBeaver/Background_Remover_By_Color_Gimp_Plugin/assets/78667207/c580b5e3-f453-4970-9b1b-dc01ca24d62b)
