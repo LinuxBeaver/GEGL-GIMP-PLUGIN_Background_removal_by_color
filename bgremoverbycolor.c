@@ -266,28 +266,28 @@ switch (o->mode) {
     case JUSTEXTRACT:
   gegl_node_link_many (state->input, state->c2a, state->c2a2, state->c2a3, state->c2a4,  state->alphalockreplace, state->opacity2, state->string, state->blur,   state->median, state->output, NULL);
   gegl_node_link_many (state->input, state->opacity1,  NULL);
-  gegl_node_connect_from (state->alphalockreplace, "aux", state->opacity1, "output");
+  gegl_node_connect (state->alphalockreplace, "aux", state->opacity1, "output");
         break;
     case TA2MODE:
   gegl_node_link_many (state->input, state->c2a, state->c2a2, state->c2a3, state->c2a4,  state->alphalockreplace, state->opacity2, state->string, state->blur, state->idref, state->replace, state->median, state->output, NULL);
   gegl_node_link_many (state->input, state->opacity1,  NULL);
-  gegl_node_connect_from (state->alphalockreplace, "aux", state->opacity1, "output");
+  gegl_node_connect (state->alphalockreplace, "aux", state->opacity1, "output");
   gegl_node_link_many (state->idref, state->ta2,  NULL);
-  gegl_node_connect_from (state->replace, "aux", state->ta2, "output");
+  gegl_node_connect (state->replace, "aux", state->ta2, "output");
         break;
     case EDGESMOOTHMODE:
   gegl_node_link_many (state->input, state->c2a, state->c2a2, state->c2a3, state->c2a4,  state->alphalockreplace, state->opacity2, state->string, state->blur, state->idref, state->replace, state->median, state->output, NULL);
   gegl_node_link_many (state->input, state->opacity1,  NULL);
-  gegl_node_connect_from (state->alphalockreplace, "aux", state->opacity1, "output");
+  gegl_node_connect (state->alphalockreplace, "aux", state->opacity1, "output");
   gegl_node_link_many (state->idref, state->edgesmooth,  NULL);
-  gegl_node_connect_from (state->replace, "aux", state->edgesmooth, "output");
+  gegl_node_connect (state->replace, "aux", state->edgesmooth, "output");
         break;
     case TA2EDGESMOOTHMODE:
   gegl_node_link_many (state->input, state->c2a, state->c2a2, state->c2a3, state->c2a4, state->alphalockreplace, state->opacity2, state->string, state->blur, state->idref, state->replace, state->median, state->output, NULL);
   gegl_node_link_many (state->input, state->opacity1,  NULL);
-  gegl_node_connect_from (state->alphalockreplace, "aux", state->opacity1, "output");
+  gegl_node_connect (state->alphalockreplace, "aux", state->opacity1, "output");
   gegl_node_link_many (state->idref, state->ta2, state->edgesmooth,  NULL);
-  gegl_node_connect_from (state->replace, "aux", state->edgesmooth, "output");
+  gegl_node_connect (state->replace, "aux", state->edgesmooth, "output");
     }
   }
 
