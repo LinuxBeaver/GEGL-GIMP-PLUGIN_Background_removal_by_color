@@ -50,25 +50,25 @@ property_enum (mode, _("Policy for color extraction"),
   description (_("Certain modes do different things such as making extracting hair easier or additionally smoothing edges."))
 
 
-property_color (color, _("Color to remove for extraction 1"), "na")
+property_color (color, _("Color to remove for extraction 1"), "transparent")
     description(_("The color range to make transparent."))
 
-property_color (color2, _("Color to remove for extraction 2"), "na")
+property_color (color2, _("Color to remove for extraction 2"), "transparent")
     description(_("The color range to make transparent."))
 
-property_color (color3, _("Color to remove for extraction 3"), "na")
+property_color (color3, _("Color to remove for extraction 3"), "transparent")
     description(_("The color range to make transparent."))
 
-property_color (color4, _("Color to remove for extraction 4"), "na")
+property_color (color4, _("Color to remove for extraction 4"), "transparent")
     description(_("The color range to make transparent."))
 
 property_double (transparencythreshold, _("Transparency threshold"), 0.09)
     description(_("The limit below which colors become transparent."))
-    value_range (0.0, 0.6)
+    value_range (0.0, 1.0)
 
 property_double (transparencythreshold2, _("Transparency threshold 2"), 0.09)
     description(_("The limit below which colors become transparent."))
-    value_range (0.0, 0.6)
+    value_range (0.0, 1.0)
 
 
 property_double (opacitythreshold, _("Opacity threshold"), 0.9)
